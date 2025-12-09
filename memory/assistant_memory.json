@@ -1,0 +1,70 @@
+{
+  "long_term_memory": {
+    "cmd_d05d5ae410a6": {
+      "id": "cmd_d05d5ae410a6",
+      "type": "command",
+      "content": {
+        "text": "сколько времени",
+        "intent": "get_time",
+        "entities": [],
+        "success": true,
+        "result": {
+          "time": "19:51:04",
+          "date": "09.12.2025"
+        },
+        "timestamp": 1765299064.7697003
+      },
+      "embedding": null,
+      "timestamp": 1765299064.7697003,
+      "weight": 1.0,
+      "access_count": 1,
+      "last_accessed": 1765299294.729201
+    },
+    "cmd_6ba07253e676": {
+      "id": "cmd_6ba07253e676",
+      "type": "command",
+      "content": {
+        "text": "сколько времени",
+        "intent": "get_time",
+        "entities": [],
+        "success": true,
+        "result": {
+          "time": "19:54:54",
+          "date": "09.12.2025"
+        },
+        "timestamp": 1765299294.729201
+      },
+      "embedding": null,
+      "timestamp": 1765299294.729201,
+      "weight": 1.0,
+      "access_count": 0,
+      "last_accessed": 1765299294.729201
+    },
+    "cmd_c56c3354cb19": {
+      "id": "cmd_c56c3354cb19",
+      "type": "command",
+      "content": {
+        "text": "сколько времени?",
+        "intent": "get_time",
+        "entities": [],
+        "success": true,
+        "result": {
+          "time": "20:00:22",
+          "date": "09.12.2025"
+        },
+        "timestamp": 1765299622.3628154
+      },
+      "embedding": null,
+      "timestamp": 1765299622.3628154,
+      "weight": 1.0,
+      "access_count": 0,
+      "last_accessed": 1765299622.3628154
+    }
+  },
+  "user_preferences": {},
+  "metadata": {
+    "save_time": 1765299622.3628154,
+    "version": "1.0",
+    "total_items": 3
+  }
+}

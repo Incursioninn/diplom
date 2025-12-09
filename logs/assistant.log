@@ -1,0 +1,320 @@
+2025-12-09 19:40:57,898 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:40:57,899 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:40:57,914 - AI_Assistant - ERROR - Проверьте что все файлы на месте и зависимости установлены
+2025-12-09 19:40:57,914 - AI_Assistant - ERROR - Критическая ошибка: No module named 'memory.assistant_memory'
+2025-12-09 19:41:07,232 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:41:07,233 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:41:13,696 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:41:13,696 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:41:13,881 - AI_Assistant - ERROR - Критическая ошибка: 'NeuralAssistant' object has no attribute '_load_config'
+2025-12-09 19:41:31,827 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:41:31,828 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:41:33,845 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'c:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:41:33,846 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'c:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:41:34,051 - AI_Assistant - ERROR - Критическая ошибка: 'NeuralAssistant' object has no attribute '_load_config'
+2025-12-09 19:41:59,431 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:41:59,432 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:42:01,439 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'c:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:42:01,439 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'c:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:42:01,635 - AI_Assistant - ERROR - Критическая ошибка: 'NeuralAssistant' object has no attribute '_load_config'
+2025-12-09 19:46:41,709 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:46:41,710 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:46:41,710 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:46:41,710 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:46:41,710 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:46:41,712 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:46:41,722 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:46:42,537 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:46:42,565 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:46:42,567 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:46:43,727 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'c:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:46:43,727 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'c:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:46:43,916 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:46:43,919 - AI_Assistant - ERROR - [ERROR] Ошибка инициализации компонентов: 'NeuralAssistant' object has no attribute '_load_config'
+2025-12-09 19:46:43,919 - AI_Assistant - ERROR - Критическая ошибка: 'NeuralAssistant' object has no attribute '_load_config'
+2025-12-09 19:50:16,398 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:50:16,399 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:50:16,399 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:50:16,399 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:50:16,399 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:50:16,471 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:50:17,634 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:50:18,362 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:50:18,387 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:50:18,413 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:50:19,624 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:50:19,624 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:50:19,794 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:50:19,797 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:50:26,612 - AI_Assistant - INFO - [INFO] Обработка команды: открой браузер
+2025-12-09 19:50:26,613 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:50:26,613 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:50:26,622 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:50:47,404 - AI_Assistant - INFO - [INFO] Обработка команды: открой яндекс браузер
+2025-12-09 19:50:47,404 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:50:47,406 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 14, 'end': 21, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:50:47,409 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:50:54,519 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:50:54,519 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:50:54,519 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:50:54,520 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:50:54,520 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:50:54,590 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:50:55,730 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:50:56,433 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:50:56,458 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:50:56,484 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:50:57,694 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:50:57,695 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:50:57,861 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:50:57,871 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:50:59,823 - AI_Assistant - INFO - [INFO] Обработка команды: привет
+2025-12-09 19:50:59,823 - AI_Assistant - INFO -    Намерение: greeting (уверенность: 50.00%)
+2025-12-09 19:50:59,824 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:51:04,768 - AI_Assistant - INFO - [INFO] Обработка команды: сколько времени
+2025-12-09 19:51:04,768 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 70.00%)
+2025-12-09 19:51:04,770 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:51:10,720 - AI_Assistant - INFO - [INFO] Обработка команды: открой блокнот
+2025-12-09 19:51:10,722 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:51:10,722 - AI_Assistant - INFO -    Сущности: [{'text': 'блокнот', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:51:10,730 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:54:49,150 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:54:49,150 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:54:49,151 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:54:49,151 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:54:49,151 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:54:49,239 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:54:50,493 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:54:51,225 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:54:51,250 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:54:51,276 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:54:52,513 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:54:52,513 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:54:52,712 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:54:52,714 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:54:52,717 - AI_Assistant - INFO - [INFO] Обработка команды: привет
+2025-12-09 19:54:52,717 - AI_Assistant - INFO -    Намерение: greeting (уверенность: 50.00%)
+2025-12-09 19:54:52,717 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:54:53,719 - AI_Assistant - INFO - [INFO] Обработка команды: открой браузер
+2025-12-09 19:54:53,719 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:54:53,719 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:54:53,727 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:54:54,729 - AI_Assistant - INFO - [INFO] Обработка команды: сколько времени
+2025-12-09 19:54:54,729 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 70.00%)
+2025-12-09 19:54:54,729 - AI_Assistant - INFO -    Найдено похожих команд: 1
+2025-12-09 19:54:54,730 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:54:55,731 - AI_Assistant - INFO - [INFO] Обработка команды: создай файл test.txt
+2025-12-09 19:54:55,731 - AI_Assistant - INFO -    Намерение: create_file (уверенность: 50.00%)
+2025-12-09 19:54:55,731 - AI_Assistant - INFO -    Сущности: [{'text': 'файл', 'label': 'FILE', 'start': 7, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}, {'text': '.txt', 'label': 'FILE', 'start': 16, 'end': 20, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:54:55,734 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:54:56,735 - AI_Assistant - INFO - [INFO] Обработка команды: пока
+2025-12-09 19:54:56,735 - AI_Assistant - INFO -    Намерение: goodbye (уверенность: 50.00%)
+2025-12-09 19:54:56,735 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:55:08,249 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:55:08,249 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:55:08,249 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:55:08,250 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:55:08,250 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:55:08,337 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:55:09,513 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:55:10,227 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:55:10,252 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:55:10,277 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:55:11,487 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:55:11,489 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:55:11,666 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:55:11,667 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:55:16,405 - AI_Assistant - INFO - [INFO] Обработка команды: открой калькулятор
+2025-12-09 19:55:16,405 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:55:16,405 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:55:16,413 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 19:56:53,994 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:56:53,994 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:56:53,994 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:56:53,995 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:56:53,995 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:56:54,006 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:56:54,017 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:56:54,833 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:56:54,862 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:56:54,865 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:56:56,017 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:56:56,019 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:56:56,191 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:56:56,192 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:56:56,195 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 19:56:56,324 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 19:57:10,689 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 19:57:17,106 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:57:17,107 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 19:57:17,107 - AI_Assistant - INFO - ============================================================
+2025-12-09 19:57:17,107 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 19:57:17,107 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 19:57:17,191 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 19:57:18,343 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 19:57:19,040 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 19:57:19,066 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 19:57:19,091 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 19:57:20,291 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 19:57:20,292 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 19:57:20,456 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 19:57:20,457 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 19:57:23,677 - AI_Assistant - INFO - [INFO] Обработка команды: открой хром
+2025-12-09 19:57:23,679 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 19:57:23,679 - AI_Assistant - INFO -    Сущности: [{'text': 'хром', 'label': 'PROGRAM', 'start': 7, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 19:57:23,687 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:00:22,361 - AI_Assistant - INFO - [INFO] Обработка команды: сколько времени?
+2025-12-09 20:00:22,361 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 70.00%)
+2025-12-09 20:00:22,364 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:00:25,714 - AI_Assistant - INFO - [INFO] Обработка команды: время?
+2025-12-09 20:00:25,714 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 50.00%)
+2025-12-09 20:00:25,716 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:00:30,742 - AI_Assistant - INFO - [INFO] Обработка команды: сколько?
+2025-12-09 20:00:30,743 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:00:30,743 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:00:41,897 - AI_Assistant - INFO - [INFO] Обработка команды: сколько будет 1+1
+2025-12-09 20:00:41,897 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:00:41,897 - AI_Assistant - INFO -    Сущности: [{'text': '1', 'label': 'NUMBER', 'start': 14, 'end': 15, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:00:41,898 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:03:33,227 - AI_Assistant - INFO - [INFO] Обработка команды: напиши привет
+2025-12-09 20:03:33,228 - AI_Assistant - INFO -    Намерение: type_text (уверенность: 50.00%)
+2025-12-09 20:03:34,633 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:06:31,575 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:06:31,575 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 20:06:31,575 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:06:31,575 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 20:06:31,575 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 20:06:31,658 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 20:06:32,840 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 20:06:33,561 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 20:06:33,589 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 20:06:33,622 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 20:06:34,832 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 20:06:34,832 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 20:06:35,016 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 20:06:35,018 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 20:06:39,182 - AI_Assistant - INFO - [INFO] Обработка команды: открой калькулятор
+2025-12-09 20:06:39,182 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:06:39,182 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:06:39,187 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:07:30,098 - AI_Assistant - INFO - [INFO] Обработка команды: время
+2025-12-09 20:07:30,098 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 50.00%)
+2025-12-09 20:07:30,098 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:07:31,643 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 20:07:31,643 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:07:31,644 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:07:36,913 - AI_Assistant - INFO - [INFO] Обработка команды: открой блокнот
+2025-12-09 20:07:36,913 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:07:36,915 - AI_Assistant - INFO -    Сущности: [{'text': 'блокнот', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:07:36,917 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:14:00,064 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:14:00,064 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 20:14:00,064 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:14:00,064 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 20:14:00,065 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 20:14:00,075 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 20:14:00,086 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 20:14:00,928 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 20:14:00,955 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 20:14:00,958 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 20:14:02,161 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 20:14:02,162 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 20:14:02,367 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 20:14:02,368 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 20:14:02,371 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 20:14:02,499 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 20:14:09,106 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 20:14:14,334 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:14:14,334 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 20:14:14,334 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:14:14,335 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 20:14:14,335 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 20:14:14,421 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 20:14:15,592 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 20:14:16,329 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 20:14:16,360 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 20:14:16,388 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 20:14:17,660 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 20:14:17,661 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 20:14:17,863 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 20:14:17,864 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 20:14:21,135 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 20:14:21,136 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:14:21,136 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:14:21,136 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:14:36,061 - AI_Assistant - INFO - [INFO] Обработка команды: открой калькулятор
+2025-12-09 20:14:36,062 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:36,062 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:14:36,079 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:14:41,717 - AI_Assistant - INFO - [INFO] Обработка команды: открой телеграм
+2025-12-09 20:14:41,718 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:41,741 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:14:45,034 - AI_Assistant - INFO - [INFO] Обработка команды: открой телеграмм
+2025-12-09 20:14:45,034 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:45,056 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:14:49,300 - AI_Assistant - INFO - [INFO] Обработка команды: открой браузер
+2025-12-09 20:14:49,300 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:49,301 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:14:49,307 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:14:53,363 - AI_Assistant - INFO - [INFO] Обработка команды: открой браузер
+2025-12-09 20:14:53,363 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:53,365 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:14:53,367 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:14:57,092 - AI_Assistant - INFO - [INFO] Обработка команды: открой блокнот
+2025-12-09 20:14:57,092 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:14:57,092 - AI_Assistant - INFO -    Сущности: [{'text': 'блокнот', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:14:57,098 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:15:03,396 - AI_Assistant - INFO - [INFO] Обработка команды: открой яндекс браузер
+2025-12-09 20:15:03,396 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:15:03,397 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 14, 'end': 21, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:15:03,400 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:15:17,602 - AI_Assistant - INFO - [INFO] Обработка команды: время
+2025-12-09 20:15:17,602 - AI_Assistant - INFO -    Намерение: get_time (уверенность: 50.00%)
+2025-12-09 20:15:17,602 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:15:24,423 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 20:15:24,423 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:15:24,425 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:17:17,283 - AI_Assistant - INFO - [INFO] Обработка команды: научи меня
+2025-12-09 20:17:17,283 - AI_Assistant - INFO -    Намерение: learn_command (уверенность: 50.00%)
+2025-12-09 20:17:17,284 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:30:50,712 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:30:50,713 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 20:30:50,713 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:30:50,713 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 20:30:50,713 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 20:30:50,797 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 20:30:52,123 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 20:30:52,953 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 20:30:52,981 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 20:30:53,007 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 20:30:54,263 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 20:30:54,263 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 20:30:54,449 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 20:30:54,452 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 20:30:59,724 - AI_Assistant - INFO - [INFO] Обработка команды: открой хром
+2025-12-09 20:30:59,725 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 20:30:59,725 - AI_Assistant - INFO -    Сущности: [{'text': 'хром', 'label': 'PROGRAM', 'start': 7, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 20:30:59,734 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:31:06,271 - AI_Assistant - INFO - [INFO] Обработка команды: привет
+2025-12-09 20:31:06,271 - AI_Assistant - INFO -    Намерение: greeting (уверенность: 50.00%)
+2025-12-09 20:31:06,271 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 20:31:10,931 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 20:31:10,931 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:31:10,931 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 20:33:26,672 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:33:26,672 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 20:33:26,672 - AI_Assistant - INFO - ============================================================
+2025-12-09 20:33:26,673 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 20:33:26,673 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 20:33:26,754 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 20:33:27,889 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 20:33:28,576 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 20:33:28,600 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 20:33:28,627 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 20:33:29,877 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 20:33:29,878 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 20:33:30,062 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 20:33:30,063 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 20:33:32,198 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 20:33:32,198 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 20:33:32,199 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False

@@ -1,0 +1,10 @@
+{
+  "voice": {
+    "speech_recognizer": "google",
+    "language": "ru",
+    "activation_mode": "always"
+  },
+  "execution": {
+    "safe_mode": true
+  }
+}

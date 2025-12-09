@@ -1,0 +1,47 @@
+{
+  "assistant": {
+    "name": "Нейро-Ассистент",
+    "version": "1.0.0",
+    "auto_start": true,
+    "log_level": "INFO"
+  },
+  "voice": {
+    "speech_recognizer": "google",
+    "tts_engine": "pyttsx3",
+    "language": "ru",
+    "activation_keyword": "ассистент",
+    "activation_mode": "keyword",
+    "sample_rate": 16000,
+    "voice_gender": "female"
+  },
+  "neural_models": {
+    "intent_model": "models/intent_model.pt",
+    "learning_model": "models/learning_model.pt",
+    "code_generator": "models/code_generator.pt",
+    "use_gpu": false,
+    "model_size": "small"
+  },
+  "execution": {
+    "safe_mode": true,
+    "confirm_destructive": true,
+    "max_code_length": 1000,
+    "timeout_seconds": 30
+  },
+  "memory": {
+    "memory_file": "memory/assistant_memory.json",
+    "max_items": 2000,
+    "auto_cleanup_days": 7
+  },
+  "learning": {
+    "auto_learn": true,
+    "min_confidence_for_learning": 0.3,
+    "save_examples": true,
+    "examples_file": "data/learned_commands.json"
+  },
+  "paths": {
+    "browser": "chrome.exe",
+    "editor": "notepad.exe",
+    "calculator": "calc.exe",
+    "file_manager": "explorer.exe"
+  }
+}
