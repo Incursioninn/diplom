@@ -10,7 +10,7 @@
     "tts_engine": "pyttsx3",
     "language": "ru",
     "activation_keyword": "ассистент",
-    "activation_mode": "keyword",
+    "activation_mode": "always",
     "sample_rate": 16000,
     "voice_gender": "female"
   },

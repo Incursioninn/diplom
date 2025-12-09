@@ -165,3 +165,50 @@ class NeuralAssistant:
             print(f"[ERROR] Ошибка обучения команды: {e}")
             return {"success": False, "message": f"Ошибка обучения: {str(e)}"}
         
+    def train_on_unknown(self, command: str, explanation: str, examples: list):
+        """
+        Обучает новую голосовую команду:
+        - генерирует код
+        - сохраняет в память
+        - дообучает классификатор
+        """
+        if not hasattr(self, "_learning_engine") or not hasattr(self, "_code_generator"):
+            return {"success": False, "message": "Компоненты обучения не инициализированы"}
+
+        try:
+            # Генерация кода
+            generated_code = self._code_generator.generate(
+                description=explanation,
+                intent_type="program",
+                safe_mode=True
+            )
+
+            # Обучение модели намерений
+            intent_name = f"learned_{abs(hash(command)) % 10000}"
+            result = self._learning_engine.train_on_example(
+                text=command,
+                explanation=explanation,
+                examples=examples,
+                generated_code=generated_code,
+                intent=intent_name
+            )
+
+            if result:
+                # Сохранение в память
+                self._memory.add_learned_command(
+                    command_text=command,
+                    explanation=explanation,
+                    generated_code=generated_code,
+                    examples=examples,
+                    intent=intent_name
+                )
+
+                return {
+                    "success": True,
+                    "message": f"Я выучила команду '{command}'!",
+                    "intent": intent_name
+                }
+
+        except Exception as e:
+            return {"success": False, "message": f"Ошибка обучения: {e}"}  
+        

@@ -318,3 +318,374 @@
 2025-12-09 20:33:32,198 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
 2025-12-09 20:33:32,198 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
 2025-12-09 20:33:32,199 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:01:05,749 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:01:05,749 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:01:05,749 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:01:05,750 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:01:05,750 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:01:05,762 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:01:05,775 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:01:06,640 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:01:06,665 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:01:06,669 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:01:07,914 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:01:07,914 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:01:08,109 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:01:08,111 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:01:08,114 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:01:08,241 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:01:49,217 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:01:52,158 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:01:52,158 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:01:52,158 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:01:52,158 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:01:52,159 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:01:52,169 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:01:52,179 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:01:52,927 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:01:52,952 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:01:52,954 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:01:54,147 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:01:54,147 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:01:54,328 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:01:54,329 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:01:54,331 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:01:54,459 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:02:28,591 - AI_Assistant - INFO - [INPUT] Голосовая команда: сделай
+2025-12-09 21:02:28,592 - AI_Assistant - INFO - [INFO] Обработка команды: сделай
+2025-12-09 21:02:28,592 - AI_Assistant - INFO -    Намерение: create_file (уверенность: 50.00%)
+2025-12-09 21:02:28,594 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:03:25,375 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:04:55,169 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:04:55,169 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:04:55,170 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:04:55,170 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:04:55,170 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:04:55,180 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:04:55,194 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:04:56,041 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:04:56,071 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:04:56,074 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:04:57,289 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:04:57,289 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:04:57,503 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:04:57,504 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:04:57,506 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:04:57,634 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:05:18,481 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:05:25,148 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:05:25,148 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:05:25,148 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:05:25,148 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:05:25,148 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:05:25,242 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:05:26,524 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:05:27,294 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:05:27,321 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:05:27,350 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:05:28,635 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:05:28,636 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:05:28,838 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:05:28,838 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:05:31,116 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:05:31,116 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:05:31,117 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:05:33,729 - AI_Assistant - INFO - [INFO] Обработка команды: ассистент
+2025-12-09 21:05:33,730 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:05:33,730 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:06:30,214 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:06:30,214 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:06:30,214 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:06:30,223 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:06:30,223 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:06:30,235 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:06:30,245 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:06:31,089 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:06:31,114 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:06:31,117 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:06:32,323 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:06:32,323 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:06:32,524 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:06:32,525 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:06:32,527 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:06:32,657 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:06:35,615 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:06:35,615 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:06:35,615 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:06:35,616 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:06:40,093 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:06:40,094 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:06:40,094 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:06:40,095 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:06:48,833 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:06:48,833 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:06:48,833 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:06:48,834 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:07:11,390 - AI_Assistant - INFO - [INPUT] Голосовая команда: сто
+2025-12-09 21:07:11,390 - AI_Assistant - INFO - [INFO] Обработка команды: сто
+2025-12-09 21:07:11,390 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:07:11,391 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:07:32,972 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:07:32,973 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:07:32,973 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:07:33,001 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:07:42,945 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:07:42,946 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:07:42,946 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:07:42,970 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:07:46,489 - AI_Assistant - INFO - [INPUT] Голосовая команда: Открой браузер
+2025-12-09 21:07:46,490 - AI_Assistant - INFO - [INFO] Обработка команды: Открой браузер
+2025-12-09 21:07:46,490 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:07:46,490 - AI_Assistant - INFO -    Сущности: [{'text': 'браузер', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:07:46,498 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:07:56,716 - AI_Assistant - INFO - [INPUT] Голосовая команда: калькулятор
+2025-12-09 21:07:56,716 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 21:07:56,717 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:07:56,717 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:07:56,718 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: False
+2025-12-09 21:08:00,782 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:08:00,783 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:08:00,783 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:08:00,805 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:08:03,832 - AI_Assistant - INFO - [INPUT] Голосовая команда: Открой калькулятор
+2025-12-09 21:08:03,833 - AI_Assistant - INFO - [INFO] Обработка команды: Открой калькулятор
+2025-12-09 21:08:03,833 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:08:03,833 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:08:03,840 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:08:06,929 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:11:11,994 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:11:11,994 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:11:11,994 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:11:11,994 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:11:11,995 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:11:12,005 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:11:12,016 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:11:12,768 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:11:12,794 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:11:12,796 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:11:13,986 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:11:13,986 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:11:14,166 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:11:14,167 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:11:14,169 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:11:14,299 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:11:29,698 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:11:29,698 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:11:29,699 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:11:29,699 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:11:29,699 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:12:02,888 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:12:02,888 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:12:02,888 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:12:02,889 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:12:02,889 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да
+2025-12-09 21:12:10,788 - AI_Assistant - INFO - [INPUT] Голосовая команда: открыть блок
+2025-12-09 21:12:10,789 - AI_Assistant - INFO - [INFO] Обработка команды: открыть блок
+2025-12-09 21:12:10,789 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:12:10,814 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:12:11,606 - AI_Assistant - INFO - [INPUT] Голосовая команда: Открой блокнот
+2025-12-09 21:12:11,607 - AI_Assistant - INFO - [INFO] Обработка команды: Открой блокнот
+2025-12-09 21:12:11,607 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:12:11,607 - AI_Assistant - INFO -    Сущности: [{'text': 'блокнот', 'label': 'PROGRAM', 'start': 7, 'end': 14, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:12:11,615 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:12:24,266 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:12:24,266 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:12:24,266 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:12:24,267 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:12:24,267 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:12:28,587 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:12:28,588 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:12:28,588 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:12:28,588 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:12:28,588 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:12:39,324 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:12:39,324 - AI_Assistant - ERROR - [ERROR] Ошибка обработки команды: 
+2025-12-09 21:19:25,970 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:19:25,970 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:19:25,970 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:19:25,970 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:19:25,971 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:19:25,981 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:19:25,993 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:19:26,849 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:19:26,873 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:19:26,875 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:19:28,072 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:19:28,072 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:19:28,265 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:19:28,266 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:19:28,268 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:19:28,396 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:19:35,351 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:19:35,352 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:19:35,352 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:19:35,354 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:19:35,354 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:19:55,376 - AI_Assistant - ERROR - [ERROR] Ошибка обработки команды: 'NeuralAssistant' object has no attribute 'train_on_unknown'
+2025-12-09 21:19:56,530 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:19:56,531 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:19:56,531 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:19:56,558 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:19:58,093 - AI_Assistant - INFO - [INPUT] Голосовая команда: Открой калькулятор
+2025-12-09 21:19:58,094 - AI_Assistant - INFO - [INFO] Обработка команды: Открой калькулятор
+2025-12-09 21:19:58,094 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:19:58,094 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:19:58,102 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:20:17,680 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:20:17,680 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:20:17,680 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:20:17,681 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:20:17,681 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:20:37,206 - AI_Assistant - ERROR - [ERROR] Ошибка обработки команды: 'NeuralAssistant' object has no attribute 'train_on_unknown'
+2025-12-09 21:20:38,675 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:20:38,675 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:20:38,675 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:20:38,676 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:20:38,676 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да
+2025-12-09 21:20:51,629 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:20:58,405 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:20:58,405 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:20:58,405 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:20:58,405 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:20:58,405 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:20:58,415 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:20:58,426 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:20:59,182 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:20:59,207 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:20:59,209 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:21:00,405 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:21:00,405 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:21:00,590 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:21:00,591 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:21:00,594 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:21:00,724 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:21:06,278 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:21:06,278 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:21:06,278 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:21:06,279 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:21:06,279 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:21:27,182 - AI_Assistant - ERROR - [ERROR] Ошибка обработки команды: 'NeuralAssistant' object has no attribute 'train_on_unknown'
+2025-12-09 21:21:27,984 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:21:27,984 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:21:27,984 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:21:27,985 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:21:27,985 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да
+2025-12-09 21:21:43,508 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:21:43,509 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:21:43,510 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:21:43,534 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:21:44,418 - AI_Assistant - INFO - [INPUT] Голосовая команда: калькулятор
+2025-12-09 21:21:44,419 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 21:21:44,419 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:21:44,419 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:21:44,420 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:21:44,420 - AI_Assistant - INFO - [WARNING] Неизвестная команда: калькулятор
+2025-12-09 21:23:32,312 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:23:36,084 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:23:36,085 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:23:36,085 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:23:36,085 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:23:36,086 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:23:36,098 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:23:36,109 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:23:36,952 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:23:36,979 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:23:36,981 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:23:38,189 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:23:38,190 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:23:38,379 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:23:38,391 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:23:38,394 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:23:38,521 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:23:42,174 - AI_Assistant - INFO - [INPUT] Голосовая команда: калькулятор
+2025-12-09 21:23:42,174 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 21:23:42,174 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:23:42,174 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:23:42,175 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:23:42,175 - AI_Assistant - INFO - [WARNING] Неизвестная команда: калькулятор
+2025-12-09 21:24:09,486 - AI_Assistant - INFO - [INPUT] Голосовая команда: Открой калькулятор
+2025-12-09 21:24:09,486 - AI_Assistant - INFO - [INFO] Обработка команды: Открой калькулятор
+2025-12-09 21:24:09,486 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:24:09,486 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 7, 'end': 18, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:24:09,496 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:24:14,663 - AI_Assistant - INFO - [INPUT] Голосовая команда: калькулятор
+2025-12-09 21:24:14,663 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 21:24:14,663 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:24:14,663 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:24:14,664 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:24:14,664 - AI_Assistant - INFO - [WARNING] Неизвестная команда: калькулятор
+2025-12-09 21:24:19,733 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:24:26,412 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:24:26,412 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:24:26,412 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:24:26,414 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:24:26,414 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:24:26,425 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:24:26,435 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:24:27,211 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:24:27,234 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:24:27,237 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:24:28,446 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:24:28,447 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:24:28,645 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:24:28,656 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:24:28,658 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:24:28,784 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:24:37,914 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:24:37,915 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:24:37,915 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:24:37,915 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:24:37,916 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:24:55,918 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:24:55,919 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:24:55,919 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:24:55,919 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:24:55,919 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:25:04,589 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:25:04,589 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:25:04,589 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:25:04,589 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:25:04,590 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да
+2025-12-09 21:25:11,444 - AI_Assistant - INFO - [INPUT] Голосовая команда: открой
+2025-12-09 21:25:11,444 - AI_Assistant - INFO - [INFO] Обработка команды: открой
+2025-12-09 21:25:11,445 - AI_Assistant - INFO -    Намерение: open_program (уверенность: 50.00%)
+2025-12-09 21:25:11,471 - AI_Assistant - INFO -    [SUCCESS] Команда выполнена: True
+2025-12-09 21:25:12,060 - AI_Assistant - INFO - [INPUT] Голосовая команда: калькулятор
+2025-12-09 21:25:12,061 - AI_Assistant - INFO - [INFO] Обработка команды: калькулятор
+2025-12-09 21:25:12,061 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:25:12,061 - AI_Assistant - INFO -    Сущности: [{'text': 'калькулятор', 'label': 'PROGRAM', 'start': 0, 'end': 11, 'confidence': 0.7, 'method': 'pattern'}]
+2025-12-09 21:25:12,061 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:25:12,061 - AI_Assistant - INFO - [WARNING] Неизвестная команда: калькулятор
+2025-12-09 21:26:22,024 - AI_Assistant - INFO - Получен сигнал 2, завершаю работу...
+2025-12-09 21:26:22,024 - AI_Assistant - ERROR - [ERROR] Ошибка обработки команды: 
+2025-12-09 21:26:27,927 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:26:27,927 - AI_Assistant - INFO - [LOADING] ИНИЦИАЛИЗАЦИЯ НЕЙРОСЕТЕВОГО АССИСТЕНТА
+2025-12-09 21:26:27,927 - AI_Assistant - INFO - ============================================================
+2025-12-09 21:26:27,927 - AI_Assistant - INFO - [INFO] Конфигурация загружена из config/config.json
+2025-12-09 21:26:27,927 - AI_Assistant - INFO - [LOADING] Инициализация компонентов...
+2025-12-09 21:26:27,938 - AI_Assistant - INFO - [SUCCESS] Память инициализирована
+2025-12-09 21:26:27,951 - AI_Assistant - INFO - [SUCCESS] Распознаватель намерений инициализирован
+2025-12-09 21:26:28,700 - AI_Assistant - INFO - [SUCCESS] Движок обучения инициализирован
+2025-12-09 21:26:28,725 - AI_Assistant - INFO - [SUCCESS] Генератор кода инициализирован
+2025-12-09 21:26:28,729 - AI_Assistant - INFO - [SUCCESS] Исполнитель команд инициализирован
+2025-12-09 21:26:29,921 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\diplom\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-12-09 21:26:29,921 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\diplom\.venv\Lib\site-packages\comtypes\gen'
+2025-12-09 21:26:30,107 - AI_Assistant - INFO - [SUCCESS] Голосовой движок инициализирован
+2025-12-09 21:26:30,118 - AI_Assistant - INFO - [SUCCESS] Все компоненты успешно инициализированы
+2025-12-09 21:26:30,121 - AI_Assistant - INFO - [INFO] Запуск ассистента...
+2025-12-09 21:26:30,246 - AI_Assistant - INFO - [SUCCESS] Ассистент запущен
+2025-12-09 21:26:32,828 - AI_Assistant - INFO - [INPUT] Голосовая команда: будильник
+2025-12-09 21:26:32,828 - AI_Assistant - INFO - [INFO] Обработка команды: будильник
+2025-12-09 21:26:32,829 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:26:32,829 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:26:32,829 - AI_Assistant - INFO - [WARNING] Неизвестная команда: будильник
+2025-12-09 21:26:55,088 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:26:55,089 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:26:55,089 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:26:55,089 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:26:55,089 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да
+2025-12-09 21:27:04,457 - AI_Assistant - INFO - [INPUT] Голосовая команда: да
+2025-12-09 21:27:04,458 - AI_Assistant - INFO - [INFO] Обработка команды: да
+2025-12-09 21:27:04,458 - AI_Assistant - INFO -    Намерение: unknown (уверенность: 50.00%)
+2025-12-09 21:27:04,459 - AI_Assistant - INFO -  [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение
+2025-12-09 21:27:04,459 - AI_Assistant - INFO - [WARNING] Неизвестная команда: да

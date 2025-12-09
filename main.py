@@ -189,6 +189,19 @@ class NeuralAIAssistant:
             "voice": {"language": "ru", "activation_keyword": "ассистент"},
             "execution": {"safe_mode": True}
         }
+        
+    def _ask_user(self, prompt_tts: str, text_prompt: str, timeout: int = 10) -> str:
+        """Универсальный запрос: сначала пытаемся получить голосовой ввод, если не вышло — консоль."""
+        if self.voice_engine:
+            try:
+                self.voice_engine.speak(prompt_tts)
+                answer = self.voice_engine.listen_once(timeout=timeout)
+                if answer:
+                    return answer.strip()
+            except Exception:
+                pass
+        # fallback
+        return input(text_prompt).strip()
     
     def _initialize_components(self):
         """Инициализирует все компоненты ассистента"""
@@ -253,6 +266,7 @@ class NeuralAIAssistant:
             self.assistant_core._voice_engine = self.voice_engine
             self.assistant_core._memory = self.memory
             self.assistant_core._learning_engine = self.learning_engine
+            self.assistant_core._code_generator = self.code_generator
             
             logger.info("[SUCCESS] Все компоненты успешно инициализированы")
             
@@ -314,8 +328,11 @@ class NeuralAIAssistant:
                 logger.info(f"   Найдено похожих команд: {len(similar_commands)}")
             
             # 3. Если уверенность низкая, предлагаем обучение
-            if confidence < 0.3 and self.config.get("learning", {}).get("auto_learn", True):
-                logger.info("   [WARNING] Низкая уверенность, предлагаю обучение")
+            learning_cfg = self.config.get("learning", {})
+            min_conf = learning_cfg.get("min_confidence_for_learning", 0.3)
+
+            if (intent == "unknown" or confidence < min_conf) and learning_cfg.get("auto_learn", True):
+                logger.info(" [WARNING] Неизвестное или неуверенное намерение, предлагаю обучение")
                 return self._handle_unknown_command(text)
             
             # 4. Выполняем команду
@@ -371,35 +388,49 @@ class NeuralAIAssistant:
             }
     
     def _handle_unknown_command(self, text: str) -> Dict[str, Any]:
-        """Обработка неизвестной команды"""
         logger.info(f"[WARNING] Неизвестная команда: {text}")
-    
-        self.voice_engine.speak(f"Я не знаю команду '{text}'. Хотите научить меня? (да/нет)")
 
-        # В текстовом режиме используем input, в голосовом — listen_once
-        user_response = input("[INPUT] Ваш ответ (да/нет): ").strip().lower()
+        answer = self._ask_user(
+            prompt_tts=f"Я не знаю команду '{text}'. Хотите научить меня? Скажите да или нет.",
+            text_prompt="[INPUT] Хотите научить команду? (да/нет): "
+        ).lower()
 
-        if user_response in ['да', 'yes', 'ага']:
-            self.voice_engine.speak("Опишите, что должна делать эта команда:")
-            explanation = input("[INPUT] Объяснение команды: ").strip()
-
-            self.voice_engine.speak("Приведите примеры похожих команд через запятую:")
-            examples_input = input("[INPUT] Примеры: ").strip()
-            examples = [ex.strip() for ex in examples_input.split(',') if ex.strip()]
-
-            # Вызываем новый метод ядра
-            result = self.assistant_core.teach_command_interactive(text, explanation, examples)
-
-            self.voice_engine.speak(result.get("message", "Обучение завершено"))
-            return result
-
-        else:
+        if answer not in ["да", "yes", "ага"]:
             return {
                 "success": False,
                 "message": f"Команда '{text}' не обучена",
                 "needs_learning": True,
                 "command_text": text
             }
+
+        explanation = self._ask_user(
+            prompt_tts="Опишите, что должна делать эта команда.",
+            text_prompt="[INPUT] Объяснение команды: "
+        )
+
+        examples_input = self._ask_user(
+            prompt_tts="Приведите примеры похожих команд через запятую.",
+            text_prompt="[INPUT] Примеры похожих команд: "
+        )
+        examples = [ex.strip() for ex in examples_input.split(",") if ex.strip()]
+
+        result = self.assistant_core.train_on_unknown(text, explanation, examples)
+
+        # 🔥 ОБЯЗАТЕЛЬНО: дообучаем классификатор интентов
+        if result.get("success") and self.intent_recognizer:
+            try:
+                self.intent_recognizer.train_on_example(
+                    text=text,
+                    intent=f"learned_{hash(text) % 1000}",
+                    entities=[]
+                )
+            except Exception as e:
+                logger.error(f"Ошибка обучения распознавателя интентов: {e}")
+
+        if self.voice_engine:
+            self.voice_engine.speak(result.get("message", "Обучение завершено"))
+
+        return result
     
     def start_learning_mode(self):
         """Запускает режим обучения"""
@@ -443,7 +474,7 @@ class NeuralAIAssistant:
                 
                 generated_code = self.code_generator.generate(
                     description=explanation,
-                    intent_type="custom",
+                    intent_type="program",
                     safe_mode=self.config.get("execution", {}).get("safe_mode", True)
                 )
                 
